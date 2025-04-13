@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: Inter;
+    font-size: 36px;
+    background-color: #FFFFFF;
+    color: #5988FF;
+}
+
+
+h1:hover {
+    color: #D6FF6B; 
+    font-size: 72px;
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    10% {
+      color: red;
+    }
+  
+    20% {
+      color: green;
+    }
+
+    30% {
+        color:chocolate
+    }
+
+    40%{
+        color:darkgoldenrod
+    }
+
+    50%{
+        color:blueviolet
+    }
+
+    60%{
+        color:crimson
+    }
+
+    70%{
+        color:#D6FF6B
+    }
+
+    80%{
+        color:cadetblue
+    }
+
+    90%{color:darkgreen}
+
+    100%{
+        color:blue
+    }
+}
+
+li:hover {
+    color:hotpink
+}
